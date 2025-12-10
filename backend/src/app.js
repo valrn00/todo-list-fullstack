@@ -9,9 +9,15 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://todo-list-fullstack-valm00.vercel.app', // ⬅️ Reemplaza con TU URL de Vercel
+    // Si no sabes tu URL aún, agrégala después del primer deploy
+  ],
+  credentials: true
+}));
 
 // Routes
 app.get('/', (req, res) => {
