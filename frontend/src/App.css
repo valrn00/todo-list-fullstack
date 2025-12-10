@@ -5,6 +5,9 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -12,11 +15,13 @@ body {
 }
 
 .app {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
-
 .app-header {
   background: white;
   padding: 30px;
