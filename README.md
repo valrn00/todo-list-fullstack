@@ -169,10 +169,11 @@ Para ejecutar las pruebas del **Backend** (si están implementadas):
 cd backend
 npm test
 ```
-AUTORES:
+AUTORES:       
+```
 Valery Sofia Gaona Prada
-Nicolas Santiago Bayona Rodriguez         
+Nicolas Santiago Bayona Rodriguez  
 ```
-```
+
 
 
