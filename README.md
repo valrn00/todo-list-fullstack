@@ -1,10 +1,5 @@
-¡Claro\! Con gusto crearé un `README.md` completo para el proyecto "Todo List - Fullstack", combinando la información de tus `README` de **Backend** y **Frontend**.
-
-Aquí tienes el `README.md` sugerido:
-
 ````markdown
-# 🚀 Todo List - Fullstack
-
+# 🚀 Todo List
 
 Aplicación completa (Fullstack) para la gestión de tareas, con una **API REST** construida en Node.js/Express y una **interfaz de usuario (UI)** moderna y responsive desarrollada con React y Vite.
 
@@ -177,3 +172,4 @@ npm test
 
 ```
 ```
+
